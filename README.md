@@ -3,6 +3,24 @@
 
 ## Example Usage (Copy paste these example codes in the compiler input box)
 
+![Screenshot 2023-05-15 at 2 40 48 PM](https://github.com/VikashPR/JS-MiniCompiler/assets/69889418/b9eb3c24-1669-4462-9461-39649e9ba3af)
+
+### Reverses a string
+
+``` js
+
+function reverseString(str) {
+    let reversedString = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversedString += str[i];
+    }
+    return reversedString;
+}
+
+let reversedString = reverseString("Hello World!");
+console.log(reversedString);
+```
+
 ### Sorting of an array of numbers using selection sort algorithm
 
 ```js
